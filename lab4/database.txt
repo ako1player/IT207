@@ -1,0 +1,16 @@
+MySQL [agarciar]> CREATE TABLE USER
+    -> (
+    -> NAME CHAR(20) NOT NULL,
+    -> EMAIL VARCHAR(50) PRIMARY KEY,
+    -> COMMENT TEXT)
+    -> ;
+
+MySQL [agarciar]> DESCRIBE USER;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| NAME    | char(20)    | NO   |     | NULL    |       |
+| EMAIL   | varchar(50) | NO   | PRI | NULL    |       |
+| COMMENT | text        | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+3 rows in set (0.04 sec)

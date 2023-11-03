@@ -1,0 +1,24 @@
+#q1{
+	color: black;
+}
+
+#q2{
+	color: red;
+}
+
+#q3{
+	color: yellow;
+}
+
+#q4{
+	color: green;
+}
+
+body{
+	background: #92a7e7;
+}
+
+#container{
+	text-align: center;
+	background: #b0bfee;
+}
